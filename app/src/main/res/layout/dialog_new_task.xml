@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:padding="10dp">
+
+    <AutoCompleteTextView
+        android:id="@+id/textInputNewTask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Задача"
+        android:inputType="textMultiLine"
+        tools:ignore="MissingConstraints"
+        android:focusedByDefault="true"/>
+
+    <RelativeLayout
+        android:id="@+id/makePlanInCreationLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/textInputNewTask"
+        tools:layout_editor_absoluteX="0dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:padding="0dp"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true">
+        <ImageView
+            android:id="@+id/makePlanInCreationIcon"
+            android:layout_width="27dp"
+            android:layout_height="27dp"
+            android:src="@drawable/planned_icon">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/makePlanInCreationText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_toStartOf="@+id/makePlanInCreationIconCancel"
+            android:layout_toEndOf="@+id/makePlanInCreationIcon"
+            android:text="Задать дату выполнения"
+            android:textSize="20dp"></TextView>
+
+        <ImageView
+            android:id="@+id/makePlanInCreationIconCancel"
+            android:layout_width="27dp"
+            android:layout_height="27dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="0dp"
+            android:clickable="true"
+            android:src="@drawable/cancel_icon"></ImageView>
+    </RelativeLayout>
+
+    <!--
+    <RelativeLayout
+        android:id="@+id/makeReminderInCreationLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/makePlanInCreationLayout"
+        tools:layout_editor_absoluteX="0dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true">
+        <ImageView
+            android:id="@+id/makeReminderInCreationIcon"
+            android:layout_width="27dp"
+            android:layout_height="27dp"
+            android:src="@drawable/reminder_icon">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/makeReminderInCreationText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_toStartOf="@+id/makeReminderInCreationIconCancel"
+            android:layout_toEndOf="@+id/makeReminderInCreationIcon"
+            android:text="Напомнить"
+            android:textSize="20dp"></TextView>
+        <ImageView
+            android:id="@+id/makeReminderInCreationIconCancel"
+            android:layout_width="27dp"
+            android:layout_height="27dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="0dp"
+            android:clickable="true"
+            android:src="@drawable/cancel_icon"></ImageView>
+    </RelativeLayout>
+    -->
+</androidx.constraintlayout.widget.ConstraintLayout>

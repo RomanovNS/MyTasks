@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="red">#F44336</color>
+    <color name="pink">#FF5E95</color>
+    <color name="violet">#DC22FB</color>
+    <color name="purple">#673AB7</color>
+    <color name="darkBlue">#425DF6</color>
+    <color name="blue">#2196F3</color>
+    <color name="royalBlue">#03A9F4</color>
+    <color name="cian">#00BCD4</color>
+    <color name="darkGreen">#009688</color>
+    <color name="green">#4CAF50</color>
+    <color name="saladGreen">#8FCC49</color>
+    <color name="yellow">#FFEB3B</color>
+    <color name="yellowOrange">#FFC107</color>
+    <color name="orange">#FF9800</color>
+    <color name="redOrange">#FF5722</color>
+    <color name="gray">#7B91A3</color>
+
+    <color name="red2">#FFB5B0</color>
+    <color name="pink2">#FDBBD1</color>
+    <color name="violet2">#F5BCFF</color>
+    <color name="purple2">#D2B9FF</color>
+    <color name="darkBlue2">#B6C1FF</color>
+    <color name="blue2">#C2E4FF</color>
+    <color name="royalBlue2">#ABE5FF</color>
+    <color name="cian2">#BBF7FF</color>
+    <color name="darkGreen2">#B4FFF8</color>
+    <color name="green2">#B6EFB8</color>
+    <color name="saladGreen2">#D3EFB3</color>
+    <color name="yellow2">#FFF9C7</color>
+    <color name="yellowOrange2">#FFECB4</color>
+    <color name="orange2">#FFE2B7</color>
+    <color name="redOrange2">#FBC7B6</color>
+    <color name="gray2">#D8DEE3</color>
+
+    <style name="datePickerStyle" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">#03A9F4</item>
+    </style>
+</resources>

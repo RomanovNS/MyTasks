@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/listRename"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/rename_icon"
+        android:title="Переименовать список"/>
+    <item
+        android:id="@+id/listChangeTheme"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/change_list_theme_icon"
+        android:title="Изменить тему"/>
+    <item
+        android:id="@+id/listDelete"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/delete_icon"
+        android:title="Удалить"/>
+</menu>
